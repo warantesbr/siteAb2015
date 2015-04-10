@@ -1,0 +1,61 @@
+.header {
+	background: url("../img/backgrundHeader.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+	text-align: center;
+	color: #FFF;
+}
+.header-title {
+	margin-bottom: 0.5em;
+}
+.header-menu:before {
+	content: 'Menu ▾';
+
+	background-color: #1F8CCB;
+	border-radius: 5px;
+
+	font-size: 0.8em;
+	font-weight: bold;
+	line-height: 2.2em;
+
+	display: block;
+	width: 32.8125%;
+	height: 2em;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 3em;
+}
+.header-menu-item {
+	display: none;
+}
+.header-subtitle {
+	font-size: 2em;
+}
+.header-helpText {
+	font-size: 1em;
+
+	margin-bottom: 3em;
+}
+.header-btnAction {
+	background-color: #FFF;
+	border-radius: 5px;
+
+	font-size: 1.2em;
+	line-height: 1.7em;
+	text-decoration: none;
+	color: #1F8CCB;
+
+	display: block;
+	width: 42.1875%;
+	height: 1.5em;
+
+	margin-right: auto;
+	margin-left: auto;
+}

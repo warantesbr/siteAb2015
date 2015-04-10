@@ -4,8 +4,8 @@
     <title>{{seo.index.title}}</title>
     <meta charset="utf-8">
     <meta name="description" content="{{seo.index.description}}">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/header.css">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -14,17 +14,10 @@
 
   <body class="{{seo.index.body_class}}">
 
-    <div class="container">
-
       {{> head }}
 
-      <div class="placeholder">
-        {{> home }}
-      </div>
-
-      <hr>
+      {{> home }}
 
       {{> footer }}
-
   </body>
 </html>

@@ -11,18 +11,6 @@ var App = (function () {
                 el.className += (el.className ? ' ' : '') + name;
             }
         },
-        currentLink: function () {
-            var a = document.getElementsByTagName("A"),
-                i,
-                len,
-                self = this;
-
-            for (i = 0, len = a.length; i < len; i += 1) {
-                if (a[i].href === window.location.href) {
-                    self.addClass(a[i].parentNode, 'active');
-                }
-            }
-        },
         ready: function () {
             module.currentLink();
         }
