@@ -1,0 +1,50 @@
+.keynotes {
+	background-color: #218CCB;
+
+	color: #FFF;
+	text-align: center;
+
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.keynotes-speaker:not(:last-child) {
+	margin-bottom: 2em;
+}
+.keynotes-speaker-photo img {
+	width: 67.5%;
+}
+.keynotes-speaker-title {
+	font-weight: 600;
+	font-size: 1.4em;
+	line-height: 1em;
+}
+.keynotes-speaker-subtitle {
+	color: #99C0D6;
+	font-size: 0.9em;
+	line-height: 1em;
+	
+	margin-bottom: 0.8em;
+}
+.keynotes-speaker-description {
+	width: 67.5%;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.8em;
+}
+.keynotes-speaker-action a {
+	background-color: #FFF;
+	border-radius: 5px;
+	
+	color: #1F8CCB;
+	font-weight: 600;
+	text-decoration: none;
+	line-height: 2.5em;
+
+	display: block;
+	width: 50.625%;
+	height: 2.5em;
+
+	margin-left: auto;
+	margin-right: auto;
+}

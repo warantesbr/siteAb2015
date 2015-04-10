@@ -22,7 +22,7 @@
 
 	font-size: 0.8em;
 	font-weight: bold;
-	line-height: 2.2em;
+	line-height: 2em;
 
 	display: block;
 	width: 32.8125%;
@@ -36,10 +36,14 @@
 	display: none;
 }
 .header-subtitle {
+	font-weight: 600;
 	font-size: 2em;
+	line-height: 1.1em;
 }
 .header-helpText {
-	font-size: 1em;
+	font-weight: 300;
+	font-size: 0.9em;
+	line-height: 1em;
 
 	margin-bottom: 3em;
 }
@@ -48,13 +52,14 @@
 	border-radius: 5px;
 
 	font-size: 1.2em;
-	line-height: 1.7em;
+	font-weight: 600;
+	line-height: 1.8em;
 	text-decoration: none;
 	color: #1F8CCB;
 
 	display: block;
 	width: 42.1875%;
-	height: 1.5em;
+	height: 1.8em;
 
 	margin-right: auto;
 	margin-left: auto;

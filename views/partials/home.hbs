@@ -1,37 +1,15 @@
-<section class="keynote">
-	<dl class="keynote-speaker">
-		<dd class="keynote-speaker-photo">
-			<img src="" alt="">
+<section class="keynotes">
+	{{#each homePt.keynotes}}
+	<dl class="keynotes-speaker">
+		<dd class="keynotes-speaker-photo">
+			<img src="assets/img/keynotes/{{photo}}" alt="{{name}}">
 		</dd>
-		<dt class="keynote-speaker-title"></dt>
-		<dd class="keynote-speaker-subtitle"></dd>
-		<dd class="keynote-speaker-description"></dd>
-		<dd class="keynote-speaker-action">
-			<a href=""></a>
-		</dd>
-	</dl>
-
-	<dl class="keynote-speaker">
-		<dd class="keynote-speaker-photo">
-			<img src="" alt="">
-		</dd>
-		<dt class="keynote-speaker-title"></dt>
-		<dd class="keynote-speaker-subtitle"></dd>
-		<dd class="keynote-speaker-description"></dd>
-		<dd class="keynote-speaker-action">
-			<a href=""></a>
+		<dt class="keynotes-speaker-title">{{name}}</dt>
+		<dd class="keynotes-speaker-subtitle">Keynote Speaker</dd>
+		<dd class="keynotes-speaker-description">{{miniBio}}</dd>
+		<dd class="keynotes-speaker-action">
+			<a href="{{callToAction-url}}">{{callToAction}}</a>
 		</dd>
 	</dl>
-
-	<dl class="keynote-speaker">
-		<dd class="keynote-speaker-photo">
-			<img src="" alt="">
-		</dd>
-		<dt class="keynote-speaker-title"></dt>
-		<dd class="keynote-speaker-subtitle"></dd>
-		<dd class="keynote-speaker-description"></dd>
-		<dd class="keynote-speaker-action">
-			<a href=""></a>
-		</dd>
-	</dl>
+	{{/each}}
 </section>
