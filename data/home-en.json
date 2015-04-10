@@ -1,0 +1,41 @@
+conference = {
+	"year": 2015,
+	"dates": "October 21<sup>st</sup> to 23<sup>rd</sup>",
+	"place": "Porto de Galinhas - Brazil",
+	"callToAction": "Be a sponsor!",
+	"callToAction-url": "sponsorship.html"
+}
+
+keynotes = [
+	{
+		"name": "Linda Rising",
+		"miniBio": "Fearless Change author, specializes in patters, agile, and the change process.",
+		"photo": "/images/lindaRising.jpg",
+	},
+	{
+		"name": "Michael Feathers",
+		"miniBio": "Consultor on legacy code issues, and author of the seminal book on the subject.",
+		"photo": "/images/michaelFeathers.jpg",
+	}
+]
+
+program = {
+	"title": "Be a speaker",
+	"description": "Agile Brazil 2015's schedule expects a wide variety of subjects and themes. You can be a speaker!",
+	"callToAction": "Submit!",
+	"callToAction-url": "program.html"
+}
+
+place = {
+	"title": "The place",
+	"description": "Porto de Galinhas host us, this year. Learn about the city, the beaches, how to get there, and prepare your trip",
+	"callToAction": "Learn more!",
+	"callToAction-url": "place.html"
+}
+
+sponsorship = {
+	"title": "Make your brand known",
+	"description": "Put your brand on the spotlight and connect to a strongly skilled community of agile specialists",
+	"callToAction": "Be a sponsor!",
+	"callToAction-url": "sponsorship.html"
+}
