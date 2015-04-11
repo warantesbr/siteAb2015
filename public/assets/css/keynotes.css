@@ -10,13 +10,16 @@
 .keynotes-speaker:not(:last-child) {
 	margin-bottom: 2em;
 }
+.keynotes-speaker-photo {
+	margin-bottom: 0.2em;
+}
 .keynotes-speaker-photo img {
 	width: 67.5%;
 }
 .keynotes-speaker-title {
 	font-weight: 600;
 	font-size: 1.4em;
-	line-height: 1em;
+	line-height: 1.5em;
 }
 .keynotes-speaker-subtitle {
 	color: #99C0D6;
@@ -26,6 +29,8 @@
 	margin-bottom: 0.8em;
 }
 .keynotes-speaker-description {
+	font-weight: 300;
+
 	width: 67.5%;
 
 	margin-left: auto;

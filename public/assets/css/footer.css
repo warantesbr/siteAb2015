@@ -1,0 +1,56 @@
+.footer {
+	background-color: #1F8CCB;
+
+	overflow: hidden;
+	padding: 2em 0.8em;
+}
+.footer-newsletter {
+	background-color: #FFF;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+
+	float: left;
+	overflow: hidden;
+	width: 46%;	
+}
+.footer-newsletter-email {
+	background-color: #1F8CCB;
+	border-radius: 5px 0 0 5px;
+
+	text-indent: 5px;
+	color: #FFF;
+	font-size: 1em;
+
+	float: left;
+	width: 70%;
+	height: 2.5em;
+}
+.footer-newsletter-action {
+	background-color: #FFF;
+
+	font-size: 1em;
+	text-indent: -999px;
+	overflow: hidden;
+
+	box-sizing: box-padding;
+	float: right;
+	width: 30%;
+	height: 2em;
+}
+.footer-socialNetworks {
+	float: right;
+}
+.footer-socialNetworks-item {
+	background-color: #FFF;
+	border: 2px solid #FFF;
+
+	text-indent: -999px;
+
+	float: left;
+	overflow: hidden;
+	width: 2.5em;
+	height: 2.5em;
+}
+.footer-socialNetworks-item:not(:last-child) {
+	margin-right: 0.5em;
+}
