@@ -40,6 +40,7 @@
 	content: url(../img/iconProgram.svg);
 
 	display: block;
+	max-width: 300px;
 	width: 152px;
 
 	transform: rotateY(180deg);
@@ -47,4 +48,38 @@
 	position: absolute;
 	left: -45px;
 	bottom: -52px;
+}
+@media(min-width: 400px) {
+	.program:after {
+		width: 160px;
+		left: -15px;
+	}
+}
+@media(min-width: 520px) {
+	.program:after {
+		width: 175px;
+		left: 37px;
+		bottom: -85px;
+	}
+}
+@media(min-width: 800px) {
+	.program {
+		text-align: left;
+
+		padding: 10% 5em;
+	}
+	.program-title,
+	.program-description,
+	.program .buttonAction {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.program:after {
+		transform: rotateY(0deg);
+
+		width: 30%;
+		left: auto;
+		bottom: -140px;
+		right: 10%;
+	}
 }
