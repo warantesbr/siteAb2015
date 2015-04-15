@@ -1,39 +1,64 @@
 .header {
-	background: url("../img/backgrundHeader.jpg") no-repeat center center fixed;
+	background: url("../img/backgrundHeader.png") no-repeat center center;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
 			background-size: cover;
 	
-	padding-top: 2em;
+	padding-top: 1em;
 	padding-bottom: 2em;
 
 	text-align: center;
 	color: #FFF;
 }
 .header-title {
-	margin-bottom: 0.5em;
+	margin-bottom: 3.5em;
 }
-.header-menu:before {
+.wrap-header-menu {
+	margin-bottom: 3em;
+}
+.wrap-header-menu:before {
 	content: 'Menu ▾';
 
 	background-color: #1F8CCB;
 	border-radius: 5px;
+	cursor: pointer;
 
-	font-size: 0.8em;
-	font-weight: bold;
+	font-size: 1.2em;
+	font-weight: 600;
 	line-height: 2em;
+	text-indent: 0.2em;
 
 	display: block;
-	width: 32.8125%;
+	width: 42%;
 	height: 2em;
 
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 3em;
 }
-.header-menu-item {
-	display: none;
+.wrap-header-menu:hover .header-menu,
+.wrap-header-menu:active .header-menu {
+	max-height: 1000px;
+	margin-bottom: 0;
+}
+.header-menu {
+	max-height: 1000px;
+	overflow: hidden;
+
+	transition: max-height 0.5s linear;
+}
+.header-menu-item a {
+	background-color: #1F8CCB;
+
+	color: #FFF;
+	line-height: 2.5em;
+	text-decoration: none;
+
+	display: block;
+	width: 42%;
+	height: 2.5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 .header-subtitle {
 	font-weight: 600;
@@ -45,22 +70,25 @@
 	font-size: 0.9em;
 	line-height: 1em;
 
-	margin-bottom: 3em;
+	margin-bottom: 7.5em;
 }
-.header-btnAction {
+.header .buttonAction {
 	background-color: #FFF;
-	border-radius: 5px;
-
-	font-size: 1.2em;
-	font-weight: 600;
-	line-height: 1.8em;
-	text-decoration: none;
 	color: #1F8CCB;
-
-	display: block;
-	width: 42.1875%;
-	height: 1.8em;
-
-	margin-right: auto;
-	margin-left: auto;
+}
+@media(min-width: 400px) {
+	.header {
+		font-size: 1.3em;
+	}
+	.header-title {
+		margin-bottom: 2.5em;
+	}
+	.header-helpText {
+		margin-bottom: 2.5em;
+	}
+}
+@media(min-width: 520px) {
+	.header {
+		font-size: 1.7em;
+	}
 }

@@ -4,8 +4,12 @@
 	color: #FFF;
 	text-align: center;
 
+	overflow: hidden;
 	padding-top: 2em;
 	padding-bottom: 2em;
+}
+.keynotes-speaker {
+	max-width: 580px;
 }
 .keynotes-speaker:not(:last-child) {
 	margin-bottom: 2em;
@@ -14,6 +18,7 @@
 	margin-bottom: 0.2em;
 }
 .keynotes-speaker-photo img {
+	max-width: 246px;
 	width: 67.5%;
 }
 .keynotes-speaker-title {
@@ -31,25 +36,28 @@
 .keynotes-speaker-description {
 	font-weight: 300;
 
+	max-width: 246px;
 	width: 67.5%;
 
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0.8em;
 }
-.keynotes-speaker-action a {
+.keynotes .buttonAction {
 	background-color: #FFF;
-	border-radius: 5px;
-	
 	color: #1F8CCB;
-	font-weight: 600;
-	text-decoration: none;
-	line-height: 2.5em;
+}
 
-	display: block;
-	width: 50.625%;
-	height: 2.5em;
-
-	margin-left: auto;
-	margin-right: auto;
+@media(min-width: 520px) {
+	.keynotes-speaker {
+		display: inline-block;
+		width: 45%;
+	}
+	.keynotes-speaker:not(:last-child) {
+		margin-bottom: 0;
+	}
+	.keynotes-speaker-description,
+	.keynotes-speaker-photo img {
+		width: 84%;
+	}
 }

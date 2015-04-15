@@ -1,0 +1,15 @@
+[class*="button"] {
+	border-radius: 5px;
+
+	font-size: 19px;
+	font-weight: 600;
+	text-decoration: none;
+	text-align: center;
+	line-height: 2.8125em;
+
+	display: block;
+	max-width: 195px;
+	height: 2.8125em;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -10,7 +10,7 @@
 	line-height: 1.2em;
 	font-weight: 800;
 
-	width: 79.6875%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0.8em;
@@ -19,23 +19,13 @@
 	font-size: 1.4em;
 	font-weight: 300;
 
-	width: 79.6875%;
+	max-width: 465px;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0.8em;
 }
-.program-action {
+.program .buttonAction {
 	background-color: #1F8CCB;
-	border-radius: 5px;
-
 	color: #FFF;
-	font-weight: 600;
-	text-decoration: none;
-	line-height: 2.8125em;
-
-	display: block;
-	width: 60.9375%;
-	height: 2.8125em;
-	margin-left: auto;
-	margin-right: auto;
 }
