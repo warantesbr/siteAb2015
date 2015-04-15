@@ -7,22 +7,25 @@
 		"callToAction-url": "patrocinio.html"
 	},
 
-	"keynotes": [
-		{
-			"name": "Linda Rising",
-			"miniBio": "Autora de Fearless Change, é especialista em padrões, agile e processos de mudança.",
-			"photo": "lindaRising.png",
-			"callToAction": "Saiba mais",
-			"callToAction-url": "sponsorship/linda-rising.html" 
-		},
-		{
-			"name": "Michael Feathers",
-			"miniBio": "Consultor, lida com código legado cotidianamente e é autor do livro sobre o tema.",
-			"photo": "michaelFeathers.png",
-			"callToAction": "Saiba mais",
-			"callToAction-url": "sponsorship/michael-feathers.html"
-		}
-	],
+	"keynotes": {
+		"title": "Destaques do programa",
+		"speakers": [
+			{
+				"name": "Linda Rising",
+				"miniBio": "Autora de Fearless Change, é especialista em padrões, agile e processos de mudança.",
+				"photo": "lindaRising.png",
+				"callToAction": "Saiba mais",
+				"callToAction-url": "sponsorship/linda-rising.html" 
+			},
+			{
+				"name": "Michael Feathers",
+				"miniBio": "Consultor, lida com código legado cotidianamente e é autor do livro sobre o tema.",
+				"photo": "michaelFeathers.png",
+				"callToAction": "Saiba mais",
+				"callToAction-url": "sponsorship/michael-feathers.html"
+			}
+		]
+	},
 
 	"program": {
 		"title": "Seja um Palestrante",

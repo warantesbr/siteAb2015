@@ -1,12 +1,13 @@
 <section class="keynotes">
-	{{#each homePt.keynotes}}
-	<dl class="keynotes-speaker">
-		<dd class="keynotes-speaker-photo">
+	<h1 class="keynotes-title">{{homePt.keynotes.title}}</h1>
+	{{#each homePt.keynotes.speakers}}
+	<dl class="keynotes-speakers">
+		<dd class="keynotes-speakers-photo">
 			<img src="assets/img/keynotes/{{photo}}" alt="{{name}}">
 		</dd>
-		<dt class="keynotes-speaker-title">{{name}}</dt>
-		<dd class="keynotes-speaker-subtitle">Keynote Speaker</dd>
-		<dd class="keynotes-speaker-description">{{miniBio}}</dd>
+		<dt class="keynotes-speakers-title">{{name}}</dt>
+		<dd class="keynotes-speakers-subtitle">Keynote Speaker</dd>
+		<dd class="keynotes-speakers-description">{{miniBio}}</dd>
 		<dd>
 			<a class="buttonAction" href="{{callToAction-url}}">{{callToAction}}</a>
 		</dd>

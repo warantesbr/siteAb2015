@@ -1,4 +1,10 @@
 .sponsorship {
+	background: url(../img/backgroundSponsorship.png) no-repeat center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+
 	color: #1F8CCB;
 	text-align: center;
 
@@ -6,6 +12,7 @@
 	padding-bottom: 2em;
 }
 .sponsorship-title {
+	font-size: 2em;
 	font-weight: 800;
 
 	max-width: 79.6875%;
@@ -26,4 +33,14 @@
 .sponsorship .buttonAction {
 	background-color: #1F8CCB;
 	color: #FFF;
+
+	margin-bottom: 0.4em;
+}
+.sponsorship:after {
+	content: url(../img/iconSponsorship.svg);
+
+	display: block;
+	width: 212px;
+	margin-left: auto;
+	margin-right: auto;
 }

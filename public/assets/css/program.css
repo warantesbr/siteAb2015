@@ -1,9 +1,16 @@
 .program {
+	background: url(../img/backgroundProgram.png) no-repeat center center;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+
 	color: #1F8CCB;
 	text-align: center;
 
 	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-bottom: 10em;
+	position: relative;
 }
 .program-title {
 	font-size: 2em;
@@ -28,4 +35,16 @@
 .program .buttonAction {
 	background-color: #1F8CCB;
 	color: #FFF;
+}
+.program:after {
+	content: url(../img/iconProgram.svg);
+
+	display: block;
+	width: 152px;
+
+	transform: rotateY(180deg);
+
+	position: absolute;
+	left: -45px;
+	bottom: -52px;
 }
