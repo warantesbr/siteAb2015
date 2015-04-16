@@ -7,18 +7,21 @@
 		"callToAction-url": "sponsorship.html"
 	},
 
-	"keynotes": [
-		{
-			"name": "Linda Rising",
-			"miniBio": "Fearless Change author, specializes in patters, agile, and the change process.",
-			"photo": "lindaRising.png"
-		},
-		{
-			"name": "Michael Feathers",
-			"miniBio": "Consultor on legacy code issues, and author of the seminal book on the subject.",
-			"photo": "michaelFeathers.png"
-		}
-	],
+	"keynotes": {
+		"title": "Program Highlights",
+		"speakers": [
+			{
+				"name": "Linda Rising",
+				"miniBio": "Fearless Change author, specializes in patters, agile, and the change process.",
+				"photo": "lindaRising.png"
+			},
+			{
+				"name": "Michael Feathers",
+				"miniBio": "Consultor on legacy code issues, and author of the seminal book on the subject.",
+				"photo": "michaelFeathers.png"
+			}
+		]
+	},
 
 	"program": {
 		"title": "Be a speaker",
