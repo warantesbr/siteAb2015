@@ -5,6 +5,7 @@
   "description": "Create apps and static sites with Node.js and Express 4",
   "main": "app.js",
   "scripts": {
+    "preinstall": "grunt --version || npm install -g grunt-cli",
     "start": "nodemon ./bin/www",
     "test": "istanbul cover _mocha test/*.js"
   },
