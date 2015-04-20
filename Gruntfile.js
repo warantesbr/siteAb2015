@@ -7,6 +7,10 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         assemble: {
             options: {
+                plugins: [
+                    'assemble-contrib-permalinks',
+                    'assemble-contrib-i18n'
+                ],
                 layout: "",
                 flatten: true,
                 helpers: ['./helpers/*.js'],
