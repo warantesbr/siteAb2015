@@ -11,11 +11,15 @@ module.exports = function (grunt) {
                     'assemble-contrib-permalinks',
                     'assemble-contrib-i18n'
                 ],
+                i18n: {
+                    languages: [ "en", "pt-BR" ],
+                    templates: ["views/pages/*.hbs"]
+                },
                 layout: "",
                 flatten: true,
                 helpers: ['./helpers/*.js'],
                 partials: ['views/partials/*.hbs'],
-                data: './routes/seo.json'
+                data: 'data/**/*.{json,yml}'
             },
             pages: {
                 files: {
