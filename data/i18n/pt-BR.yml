@@ -1,0 +1,55 @@
+seo:
+  default:
+    title: "Agile Brazil"
+  home:
+    title: "Home - Agile Brazil"
+    description: ""
+    body_class: "home"
+  notFound:
+    title: "Page not found - Agile Brazil"
+    description: ""
+    body_class: "error"
+  serverError:
+    title: "Error - Agile Brazil"
+    description: ""
+    body_class: "error"
+
+conference:
+  year: 2015
+  dates: "21 a 23 de outubro"
+  place: "Porto de Galinhas - PE"
+  callToAction: "Patrocine!"
+  callToAction-url: "patrocinio.html"
+
+keynotes:
+  title: "Destaques do programa"
+  speakers:
+    - name: "Linda Rising"
+      miniBio: "Autora de Fearless Change, é especialista em padrões, agile e processos de mudança."
+      photo: "lindaRising.png"
+      callToAction: "Saiba mais"
+      callToAction-url: "program/linda-rising.html"
+
+    - name: "Michael Feathers"
+      miniBio: "Consultor, lida com código legado cotidianamente e é autor do livro sobre o tema."
+      photo: "michaelFeathers.png"
+      callToAction: "Saiba mais"
+      callToAction-url: "program/michael-feathers.html"
+
+program:
+  title: "Seja um Palestrante"
+  description: "Sessões sobre temas diversos comporão a grade da Agile Brazil 2015. E o palestrante pode ser você!"
+  callToAction: "Submeta!"
+  callToAction-url: "programa.html"
+
+place:
+  title: "O Local"
+  description: "Esse ano, a Agile Brazil é em Porto de Galinhas. Saiba como chegar, mais sobre a cidade, as praias e prepare sua viagem"
+  callToAction: "Conheça!"
+  callToAction-url: "local.html"
+
+sponsorship:
+  title: "Divulgue sua Marca"
+  description: "Atraia os olhares de especialistas em agilidade e conecte-se com uma comunidade altamente capacitada."
+  callToAction: "Patrocine!"
+  callToAction-url: "patrocinio.html"
