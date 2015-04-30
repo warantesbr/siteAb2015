@@ -62,11 +62,23 @@
 		bottom: -85px;
 	}
 }
+@media(min-width: 600px) {
+	.program:after {
+		width: 195px;
+		left: 68px;
+		bottom: -100px;
+	}	
+}
+@media(min-width: 750px) {
+	.program:after {
+		left: 130px;
+	}
+}
 @media(min-width: 800px) {
 	.program {
 		text-align: left;
 
-		padding: 10% 5em;
+		padding: 7em 15%;
 	}
 	.program-title,
 	.program-description,
@@ -80,6 +92,6 @@
 		width: 30%;
 		left: auto;
 		bottom: -140px;
-		right: 10%;
+		right: 15%;
 	}
 }

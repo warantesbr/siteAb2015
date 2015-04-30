@@ -15,7 +15,7 @@
 	font-size: 2em;
 	font-weight: 800;
 
-	max-width: 79.6875%;
+	max-width: 79.8%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0.8em;
@@ -43,4 +43,34 @@
 	width: 212px;
 	margin-left: auto;
 	margin-right: auto;
+}
+@media(min-width: 800px) {
+	.sponsorship {
+		overflow: hidden;
+		padding: 1em 15%;
+	}
+	.sponsorship:after {
+		display: none;
+	}
+	.sponsorship:before {
+		content: url(../img/iconSponsorship.svg);
+
+		float: left;
+		width: 400px;
+	}
+	.sponsorship-title {
+		margin-top: 4em;
+	}
+	.sponsorship-title,
+	.sponsorship-description {
+		text-align: right;
+		max-width: none;
+	}
+	.sponsorship .buttonAction {
+		margin-right: 0;
+	}
+	.sponsorship-description {
+		max-width: auto;
+		width: auto;
+	}
 }
