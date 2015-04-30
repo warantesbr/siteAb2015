@@ -1,17 +1,28 @@
 .wrap-supporter {
 	background-color: #1F8CCB;
+	color: #FFF;
 	text-align: center;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
+
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 .supporter {
 	width: 300px;
+	max-width: 412px;
 	margin-right: auto;
 	margin-left: auto;
 }
+.supporter-title {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 800;
+	width: 79.6875%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.8em;
+}
 .supporter-item {
 	background-color: #FFF;
-
 	padding: 10px;
 }
 .supporter-item:not(:last-child) {
@@ -19,4 +30,30 @@
 }
 .supporter-item img {
 	width: 180px;
+}
+@media(min-width: 610px) {
+	.wrap-supporter {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	.supporter {
+		width: auto;
+		overflow: hidden;
+	}
+	.supporter-item:nth-child(odd)  {
+		float: left;
+	}
+	.supporter-item:nth-child(even)  {
+		float: right;
+	}
+	.supporter-item:nth-child(n+4)  {
+		float: right;
+	}
+	.supporter .second {
+		height: 165.55px;
+	}
+	.supporter .third {
+		clear: left;
+		height: 279px;
+	}
 }
