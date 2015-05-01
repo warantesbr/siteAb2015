@@ -8,7 +8,7 @@
 }
 .supporter {
 	width: 300px;
-	max-width: 412px;
+	max-width: 620px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -40,13 +40,13 @@
 		width: auto;
 		overflow: hidden;
 	}
-	.supporter-item:nth-child(odd)  {
+	.supporter-item:nth-child(odd) {
 		float: left;
 	}
-	.supporter-item:nth-child(even)  {
+	.supporter-item:nth-child(even) {
 		float: right;
 	}
-	.supporter-item:nth-child(n+4)  {
+	.supporter-item:nth-child(n+4) {
 		float: right;
 	}
 	.supporter .second {
@@ -55,5 +55,43 @@
 	.supporter .third {
 		clear: left;
 		height: 279px;
+	}
+}
+@media(min-width: 800px) {
+	.supporter {
+		position: relative;
+		height: 412px;
+		width: 620px;
+	}
+	.supporter .first {
+		margin-right: 10px;
+	}
+	.supporter .second {
+		float: left;
+		margin-right: 10px;
+	}
+	.supporter .third {
+		clear: none;
+	}
+	.supporter-item:nth-child(n+4) {
+		position: absolute;
+		padding: 14px 10px;
+		height: 75px;
+		line-height: 103px;
+	}
+	.supporter .fourth {
+		margin-bottom: 0;
+		bottom: 0;
+		left: 210px;
+	}
+	.supporter .fifth,
+	.supporter .sixth {
+		top: 196px;
+	}
+	.supporter .sixth {
+		left: 210px;
+	}
+	.supporter .last {
+		bottom: 0;
 	}
 }
