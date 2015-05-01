@@ -11,6 +11,7 @@
 	padding-top: 2em;
 	padding-bottom: 10em;
 	position: relative;
+	overflow: hidden;
 }
 .program-title {
 	font-size: 2em;
@@ -65,7 +66,7 @@
 @media(min-width: 600px) {
 	.program:after {
 		width: 195px;
-		left: 68px;
+		left: 60px;
 		bottom: -100px;
 	}	
 }
@@ -92,6 +93,6 @@
 		width: 30%;
 		left: auto;
 		bottom: -140px;
-		right: 15%;
+		right: 10%;
 	}
 }
