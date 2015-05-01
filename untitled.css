@@ -1,0 +1,51 @@
+.headerAa {
+    overflow: hidden;
+}
+.headerAa-abLogo {
+    float: left;
+	padding: 1em 0 1em 2em;
+}
+
+.headerAa #agileAllianceBrazil {
+	position: absolute;
+	top: 0;
+	right: 1em;
+}
+
+.menu {
+    background-color: #5C95B6;
+
+    height: 30px;
+    line-height: 30px;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+.menu-list {
+    float: right;
+}
+.menu-list-item:not(:last-child) {
+    float: left;
+    margin-right: 15px;
+}
+.menu-list-item.logo { margin-right: 0; }
+.menu-list-item img {
+    float: left;
+}
+.menu-list-item:last-child {
+    float: right;
+    clear: left;
+    font-size: 0.9em;
+}
+[lang=en] .menu-list-item:last-child {
+    font-size: 0.95em;
+}
+.menu-list-item:not(:last-child) a {
+    text-decoration: none;
+    color: #E6EFF4;
+    font-size: 0.85714em;
+    font-weight: 600;
+    display: block;
+}
+.menu-list-item:not(:last-child) a:hover {
+    color: #FFF;
+}

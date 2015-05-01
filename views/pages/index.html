@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <title>{{seo.index.title}}</title>
     <meta charset="utf-8">
@@ -9,6 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/button.css">
+    <link rel="stylesheet" href="assets/css/headerAa.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/keynotes.css">
     <link rel="stylesheet" href="assets/css/program.css">
@@ -23,11 +24,13 @@
   </head>
 
   <body class="{{seo.index.body_class}}">
-
+    {{> headerAa}}
+    <main>
       {{> head }}
 
       {{> home }}
 
       {{> footer }}
+    </main>
   </body>
 </html>
