@@ -1,7 +1,7 @@
 var fs = require('fs'),
     seo = JSON.parse(fs.readFileSync(__dirname + '/seo.json'));
-    homePt = JSON.parse(fs.readFileSync('data/home-pt.json'));
-	sponsorsPt = JSON.parse(fs.readFileSync('data/sponsors-pt.json'));
+	homePt = JSON.parse(fs.readFileSync('data/home-pt.json'));
+    sponsorsPt = JSON.parse(fs.readFileSync('data/sponsors-pt.json'));
 
 exports.router = {
     index: function(req, res) {
@@ -23,6 +23,6 @@ exports.router = {
 		res.render('contact', { seo : seo });
 	},
 	patrocinio: function(req, res) {
-		res.render('patrocinio', { seo : seo, homePt : homePt, sponsorsPt : sponsorsPt });
+		res.render('patrocinio', { seo : seo, sponsorsPt : sponsorsPt });
 	}
 };

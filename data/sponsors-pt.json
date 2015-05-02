@@ -1,0 +1,17 @@
+{
+	"conference": {
+		"year": 2015,
+		"dates": "21 a 23 de Outubro",
+		"place": "Porto de Galinhas - PE",
+		"callToAction": "Patrocine!",
+		"callToAction-url": "patrocinio.html"
+	},
+
+	"sponsorship": {
+		"title": "Divulgue sua Marca",
+		"description": "Atraia os olhares de especialistas em agilidade e conecte-se com uma comunidade altamente capacitada.",
+		"callToAction": "Patrocine!",
+		"callToAction-url": "patrocinio.html",
+		"callToBeSponsor": "A Agile Brazil é uma excelente oportunidade para divulgar sua empresa, produtos e serviços às pessoas mais envolvidas com agilidade no Brasil. Coloque sua empresa em destaque para cerca de 800 agilistas que esperamos receber na edição de 2015, especialmente se você busca conhecer profissionais para contratar.<br>Oferecemos diversos níveis de patrocínio com excelentes benefícios. Obtenha mais informações através do email <a href=\"mailto:patrocinios@agilebrazil.com\">patrocinios@agilebrazil.com</a>."
+	}
+}
