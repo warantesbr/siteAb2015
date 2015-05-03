@@ -1,0 +1,51 @@
+{
+	"aa_bar":{
+		"setLang-url": "pt-BR",
+		"setLang-title": "Vesão Portugês"
+	},
+    "conference": {
+        "year": 2015,
+        "dates": "October 21<sup>st</sup> to 23<sup>rd</sup>",
+        "place": "Porto de Galinhas - Brazil",
+        "callToAction": "Be a sponsor!",
+        "callToAction-url": "patrocinio.html"
+    },
+	"registration": {
+		"soon": "We will release the registrations soon. <br>Stay connected and be an Early Bird!"
+	},
+    "keynotes": {
+        "title": "Program Highlights",
+        "speakers": [
+            {
+                "name": "Linda Rising",
+                "miniBio": "Fearless Change author, specializes in patters, agile, and the change process.",
+                "photo": "lindaRising.png"
+            },
+            {
+                "name": "Michael Feathers",
+                "miniBio": "Consultor on legacy code issues, and author of the seminal book on the subject.",
+                "photo": "michaelFeathers.png"
+            }
+        ]
+    },
+    "program": {
+        "title": "Be a speaker",
+        "description": "Agile Brazil 2015's schedule expects a wide variety of subjects and themes. You can be a speaker!",
+        "callToAction": "Submit!",
+        "callToAction-url": "program.html"
+    },
+    "place": {
+        "title": "The place",
+        "description": "Porto de Galinhas host us, this year. Learn about the city, the beaches, how to get there, and prepare your trip",
+        "callToAction": "Learn more!",
+        "callToAction-url": "place.html"
+    },
+    "sponsorship": {
+	    "support": "Support",
+        "title": "Make your brand known",
+        "description": "Put your brand on the spotlight and connect to a strongly skilled community of agile specialists",
+        "callToAction": "Be a sponsor!",
+        "callToAction-url": "patrocinio.html",
+	    "callToBeSponsor": "Agile Brazil is an excellent opportunity to showcase your brand, products and services to the people who are most interested in Agile in Brazil. Highlight your company's name and find good hires among the thousand agilist attendees we expect in 2015.<br>We offer many sponsorship levels, and we can help you find the one that brings most advantages to your company. Get more information on the e-mail <a href=\"mailto:patrocinios@agilebrazil.com\">patrocinios@agilebrazil.com</a>."
+    }
+}

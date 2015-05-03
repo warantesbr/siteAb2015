@@ -1,0 +1,56 @@
+{
+	"aa_bar":{
+		"setLang-url": "en",
+		"setLang-title": "English version"
+	},
+    "conference": {
+        "year": 2015,
+        "dates": "21 a 23 de Outubro",
+        "place": "Porto de Galinhas - PE",
+        "callToAction": "Patrocine!",
+        "callToAction-url": "patrocinio.html"
+    },
+	"registration": {
+		"soon": "Em breve vamos liberar as inscrições.<br>Fique ligado e seja um Early Bird!"
+	},
+    "keynotes": {
+        "title": "Destaques do programa",
+        "speakers": [
+            {
+                "name": "Linda Rising",
+                "miniBio": "Autora de Fearless Change, é especialista em padrões, agile e processos de mudança.",
+                "photo": "lindaRising.png",
+                "callToAction": "Saiba mais",
+                "callToAction-url": "program/linda-rising.html"
+            },
+            {
+                "name": "Michael Feathers",
+                "miniBio": "Consultor, lida com código legado cotidianamente e é autor do livro sobre o tema.",
+                "photo": "michaelFeathers.png",
+                "callToAction": "Saiba mais",
+                "callToAction-url": "program/michael-feathers.html"
+            }
+        ]
+    },
+    "program": {
+        "title": "Seja um Palestrante",
+        "description": "Sessões sobre temas diversos comporão a grade da Agile Brazil 2015. E o palestrante pode ser você! Aguarde que em breve vamos liberar as submissões!!!",
+        "callToAction": "Submeta!",
+        "callToAction-url": "programa.html"
+    },
+    "place": {
+        "title": "O Local",
+        "description": "Esse ano, a Agile Brazil é em Porto de Galinhas. Saiba como chegar, mais sobre a cidade, as praias e prepare sua viagem",
+        "callToAction": "Conheça!",
+        "callToAction-url": "local.html"
+    },
+    "sponsorship": {
+	    "support": "Apoiadores",
+        "title": "Divulgue sua Marca",
+        "description": "Atraia os olhares de especialistas em agilidade e conecte-se com uma comunidade altamente capacitada.",
+        "callToAction": "Patrocine!",
+        "callToAction-url": "patrocinio.html",
+        "callToBeSponsor": "A Agile Brazil é uma excelente oportunidade para divulgar sua empresa, produtos e serviços às pessoas mais envolvidas com agilidade no Brasil. Coloque sua empresa em destaque para cerca de 800 agilistas que esperamos receber na edição de 2015, especialmente se você busca conhecer profissionais para contratar.<br>Oferecemos diversos níveis de patrocínio com excelentes benefícios. Obtenha mais informações através do email <a href=\"mailto:patrocinios@agilebrazil.com\">patrocinios@agilebrazil.com</a>."
+    },
+    "i18n_initialized": "i18n_initialized"
+}

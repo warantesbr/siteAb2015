@@ -1,10 +1,47 @@
 var express  = require('express'),
+	i18n = require("i18next"),
     compress = require('compression'),
     hbs      = require('hbs'),
     moment   = require('moment'),
     router   = require(__dirname + '/routes').router,
     app      = express(),
     error    = require(__dirname + '/middleware/error');
+
+//i18n
+i18n.init({
+	lng : 'pt-BR'
+	, languages : ['pt-BR', 'en']
+	, cookieName : 'lang'
+	, useCookie : true
+	, fallbackLng : 'pt-BR'
+	, fallbackOnNull : false
+	, fallbackOnEmpty : false
+	, load : 'current'
+	, debug : true
+	, resGetPath : 'locales/__lng__/__ns__.json'
+	, resSetPath : 'locales/__lng__/__ns__.json'
+	, saveMissing : true
+	, resStore : false
+	, returnObjectTrees : false
+	, getAsync : true
+	, dynamicLoad : true
+});
+app.use(i18n.handle);
+i18n.registerAppHelper(app);
+
+hbs.registerHelper('t', function(i18n_key) {
+	var result = i18n.t(i18n_key);
+
+	return new hbs.SafeString(result);
+});
+//deveria servir para a versão client side
+i18n.serveClientScript(app)      // grab i18next.js in browser
+	.serveDynamicResources(app)    // route which returns all resources in on response
+	.serveMissingKeyRoute(app)     // route to send missing keys
+	.serveChangeKeyRoute(app)      // route to post value changes
+	.serveRemoveKeyRoute(app);     // route to remove key/value
+//
+///////
 
 hbs.registerPartials(__dirname + '/views/partials');
 

@@ -7,6 +7,28 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         assemble: {
             options: {
+	            plugins: [
+		            'assemble-contrib-permalinks',
+		            'assemble-contrib-i18n'
+	            ],
+	            i18n: {
+		            languages: [ "en", "pt-BR" ],
+		            templates: ["views/pages/*.html"]
+	            },
+	            permalinks: {
+		            structure: ':build_filename',
+		            patterns: [
+			            {
+				            pattern: ':build_filename',
+				            replacement: function () {
+					            var original_file_name = this.filename.replace("-" + this.language + this.ext, this.ext);
+
+					            if ( this.language == 'en' ) return ":language/" + original_file_name;
+					            return original_file_name;
+				            }
+			            }
+		            ]
+	            },
                 layout: "",
                 flatten: true,
                 helpers: ['./helpers/*.js'],
@@ -47,13 +69,26 @@ module.exports = function (grunt) {
                     dest: './'
                 }]
             }
-        }
+        },
+	    i18next: {
+		    locales:{
+			    pt_BR:{
+				    src: ['locales/pt-BR/'],
+				    dest: 'build/locales/pt-BR'
+			    },
+			    en:{
+				    src: ['locales/en/'],
+				    dest: 'build/locales/en'
+			    }
+		    }
+	    }
     });
 
     grunt.loadNpmTasks('assemble');
     grunt.loadNpmTasks('grunt-replace');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
+	grunt.loadNpmTasks('grunt-contrib-i18next');
 
-    grunt.registerTask('build', ['clean', 'assemble', 'copy', 'replace']);
+    grunt.registerTask('build', ['clean', 'copy', 'replace', 'i18next', 'assemble']);
 };

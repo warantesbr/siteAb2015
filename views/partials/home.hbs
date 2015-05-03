@@ -1,6 +1,6 @@
 <section class="keynotes">
-	<h1 class="keynotes-title">{{homePt.keynotes.title}}</h1>
-	{{#each homePt.keynotes.speakers}}
+	<h1 class="keynotes-title">{{t "keynotes.title"}}</h1>
+	{{#each data.keynotes.speakers}}
 	<dl class="keynotes-speakers">
 		<dd class="keynotes-speakers-photo">
 			<img src="assets/img/keynotes/{{photo}}" alt="{{name}}">
@@ -16,13 +16,13 @@
 </section>
 
 <section class="program">
-	<h1 class="program-title">{{homePt.program.title}}</h1>
-	<p class="program-description">{{homePt.program.description}}</p>
-	<!--<a href="{{homePt.program.callToAction-url}}" class="buttonAction">{{homePt.program.callToAction}}</a>-->
+	<h1 class="program-title">{{t "program.title"}}</h1>
+	<p class="program-description">{{t "program.description"}}</p>
+	<!--<a href="{{t "program.callToAction-url"}}" class="buttonAction">{{t "program.callToAction"}}</a>-->
 </section>
 
 <section class="wrap-supporter">
-	<h1 class="supporter-title">Apoiadores</h1>
+	<h1 class="supporter-title">{{t "sponsorship.support"}}</h1>
 	<ul class="supporter">
 		<li class="supporter-item first">
 			<img src="assets/img/supporter/logoAgilidadeRecife.jpg" alt="Logo da Agilidade Recife">
@@ -49,7 +49,7 @@
 </section>
 
 <section class="sponsorship">
-	<h1 class="sponsorship-title">{{homePt.sponsorship.title}}</h1>
-	<p class="sponsorship-description">{{homePt.sponsorship.description}}</p>
-	<a href="{{homePt.sponsorship.callToAction-url}}" class="buttonAction">{{homePt.sponsorship.callToAction}}</a>
+	<h1 class="sponsorship-title">{{t "sponsorship.title"}}</h1>
+	<p class="sponsorship-description">{{t "sponsorship.description"}}</p>
+	<a href="{{t "sponsorship.callToAction-url"}}" class="buttonAction">{{t "sponsorship.callToAction"}}</a>
 </section>
