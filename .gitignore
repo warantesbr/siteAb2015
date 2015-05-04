@@ -10,4 +10,6 @@ coverage
 build/
 build/Release
 node_modules
+.vagrant
+Vagrantfile
 .idea
